@@ -1,0 +1,21 @@
+{
+  "name": "something",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0",
+    "request": "^2.79.0",
+    "should": "^11.1.2"
+  }
+}
