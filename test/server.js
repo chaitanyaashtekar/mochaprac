@@ -31,11 +31,11 @@ describe('convert values(http request)', function() {
                   done()
             })
         });
-        it("\'A\' should return 65 ", function() {
+        it("\'A\' should return 65 ", function(done) {
             request(url, function(error, response, body) {
                 if (error) console.log(error)
                     (body).should.equal(65)
-                //done()
+                done()
             })
         })
     })
